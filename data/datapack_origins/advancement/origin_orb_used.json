@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"use_item": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {"origin_orb": true}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "datapack_origins:origin_orb_used"
+	}
+}

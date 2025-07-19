@@ -1,0 +1,51 @@
+{
+	"type": "minecraft:multi_action",
+	"can_close_with_escape": false,
+	"pause": true,
+	"title": {"translate":"originSelect.title"},
+	"body": [
+		{
+			"type": "minecraft:item",
+			"item": {
+				"id": "minecraft:feather"
+			},
+			"description": {
+				"contents": [{"text":" "}, {"translate":"origin.datapack_origins.avian"}]
+			},
+			"show_decooration": false,
+			"show_tooltip": false
+		},
+		{
+			"type": "minecraft:plain_message",
+			"width": 150,
+			"contents": {"translate":"origin.datapack_origins.avian.description"}
+		}
+	],
+	"columns": 3,
+	"actions": [
+		{
+			"label": {"translate":"originSelect.last"},
+			"width": 20,
+			"action": {
+				"type": "show_dialog",
+				"dialog": "datapack_origins:origin_select_1"
+			}
+		},
+		{
+			"label": {"translate":"originSelect.confirm"},
+			"width": 160,
+			"action": {
+				"type": "run_command",
+				"command": "scoreboard players set @s datapack_origins.origin 2"
+			}
+		},
+		{
+			"label": {"translate":"originSelect.next"},
+			"width": 20,
+			"action": {
+				"type": "show_dialog",
+				"dialog": "datapack_origins:origin_select_3"
+			}
+		}
+	]
+}

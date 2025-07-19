@@ -1,0 +1,19 @@
+{
+	"item.origin_orb.use_1": {
+		"subtitle": "subtitles.item.origin_orb.use",
+		"sounds": [
+			{
+				"name": "block/amethyst/shimmer",
+				"volume": 4.0
+			}
+		]
+	},
+	"item.origin_orb.use_2": {
+		"sounds": [
+			"block/amethyst/break1",
+			"block/amethyst/break2",
+			"block/amethyst/break3",
+			"block/amethyst/break4"
+		]
+	}
+}

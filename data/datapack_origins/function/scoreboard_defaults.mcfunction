@@ -1,0 +1,9 @@
+scoreboard players set Arachnid datapack_origins.origin 1
+scoreboard players set Avian datapack_origins.origin 2
+scoreboard players set Blazeborn datapack_origins.origin 3
+scoreboard players set Elytrian datapack_origins.origin 4
+scoreboard players set Enderian datapack_origins.origin 5
+scoreboard players set Feline datapack_origins.origin 6
+scoreboard players set Merling datapack_origins.origin 7
+scoreboard players set Phantom datapack_origins.origin 8
+scoreboard players set Shulk datapack_origins.origin 9

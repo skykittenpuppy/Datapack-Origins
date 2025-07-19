@@ -1,0 +1,30 @@
+{
+	"item.datapack_origins.origin_orb": "Orb of Origins",
+	
+	"originSelect.title":	"Select your Origin!",
+	"originSelect.last":	"<",
+	"originSelect.confirm":	"Select",
+	"originSelect.next":	">",
+	
+	"origin.datapack_origins.arachnid":		"Arachnid",
+	"origin.datapack_origins.avian":		"Avian",
+	"origin.datapack_origins.blazeborn":	"Blazeborn",
+	"origin.datapack_origins.elytrian":		"Elytrian",
+	"origin.datapack_origins.enderian":		"Enderian",
+	"origin.datapack_origins.feline":		"Feline",
+	"origin.datapack_origins.merling":		"Merling",
+	"origin.datapack_origins.phantom":		"Phantom",
+	"origin.datapack_origins.shulk":		"Shulk",
+
+	"origin.datapack_origins.arachnid.description":		"Arachnid",
+	"origin.datapack_origins.avian.description":		"Avian",
+	"origin.datapack_origins.blazeborn.description":	"Blazeborn",
+	"origin.datapack_origins.elytrian.description":		"Elytrian",
+	"origin.datapack_origins.enderian.description":		"Enderian",
+	"origin.datapack_origins.feline.description":		"Feline",
+	"origin.datapack_origins.merling.description":		"Merling",
+	"origin.datapack_origins.phantom.description":		"Phantom",
+	"origin.datapack_origins.shulk.description":		"Shulk",
+
+	"subtitles.item.origin_orb.use": "Orb of Origins used"
+}
