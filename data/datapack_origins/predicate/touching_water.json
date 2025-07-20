@@ -1,0 +1,37 @@
+{
+	"condition": "any_of",
+	"terms": [
+		{
+			"condition": "all_of",
+			"terms": [
+				{
+					"condition": "weather_check",
+					"raining": true
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"can_see_sky": true
+					}
+				},
+				{
+					"condition": "inverted",
+					"term": {
+						"condition": "location_check",
+						"predicate": {
+							"biomes": "#datapack_origins:without_rain"
+						}
+					}
+				}
+			]
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"fluid": {
+					"fluids": "#datapack_origins:wet"
+				}
+			}
+		}
+	]
+}

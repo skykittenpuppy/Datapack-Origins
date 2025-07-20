@@ -7,7 +7,10 @@
 		{
 			"type": "minecraft:item",
 			"item": {
-				"id": "minecraft:elytra"
+				"id": "minecraft:poisonous_potato",
+				"components": {
+					"item_model": "datapack_origins:icon_elytrian"
+				}
 			},
 			"description": [{"text":" "}, {"translate":"origin.datapack_origins.elytrian"}],
 			"show_decooration": false,

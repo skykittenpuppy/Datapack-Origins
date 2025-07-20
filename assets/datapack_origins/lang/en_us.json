@@ -1,11 +1,22 @@
 {
+	"death.attack.meltWater": "%1$s melted away",
+	"death.attack.meltWater.item": "%1$s melted away while fighting %2$s wielding %3$s",
+	"death.attack.meltWater.player": "%1$s melted away while fighting %2$s",
+
+	"death.attack.extinguishWater": "%1$s's flame was extinguished",
+	"death.attack.extinguishWater.item": "%1$s's flame was extinguished while fighting %2$s wielding %3$s",
+	"death.attack.extinguishWater.player": "%1$s's flame was extinguished while fighting %2$s",
+
+	"enchantment.datapack_origins.water_protection": "Water Protection",
+
 	"item.datapack_origins.origin_orb": "Orb of Origins",
 	
 	"originSelect.title":	"Select your Origin!",
-	"originSelect.last":	"<",
 	"originSelect.confirm":	"Select",
+	"originSelect.last":	"<",
 	"originSelect.next":	">",
 	
+	"origin.datapack_origins.human":		"Human",
 	"origin.datapack_origins.arachnid":		"Arachnid",
 	"origin.datapack_origins.avian":		"Avian",
 	"origin.datapack_origins.blazeborn":	"Blazeborn",
@@ -16,15 +27,19 @@
 	"origin.datapack_origins.phantom":		"Phantom",
 	"origin.datapack_origins.shulk":		"Shulk",
 
-	"origin.datapack_origins.arachnid.description":		"Arachnid",
-	"origin.datapack_origins.avian.description":		"Avian",
-	"origin.datapack_origins.blazeborn.description":	"Blazeborn",
-	"origin.datapack_origins.elytrian.description":		"Elytrian",
-	"origin.datapack_origins.enderian.description":		"Enderian",
-	"origin.datapack_origins.feline.description":		"Feline",
-	"origin.datapack_origins.merling.description":		"Merling",
-	"origin.datapack_origins.phantom.description":		"Phantom",
-	"origin.datapack_origins.shulk.description":		"Shulk",
+	"origin.datapack_origins.human.description":		"Human ...",
+	"origin.datapack_origins.arachnid.description":		"Arachnid ...",
+	"origin.datapack_origins.avian.description":		"Avian ...",
+	"origin.datapack_origins.blazeborn.description":	"Blazeborn ...",
+	"origin.datapack_origins.elytrian.description":		"Elytrian ...",
+	"origin.datapack_origins.enderian.description":		"Enderian ...",
+	"origin.datapack_origins.feline.description":		"Feline ...",
+	"origin.datapack_origins.merling.description":		"Merling ...",
+	"origin.datapack_origins.phantom.description":		"Phantom ...",
+	"origin.datapack_origins.shulk.description":		"Shulk ...",
 
+	"subtitles.entity.generic.hurt_extinguish": "Something is extinguished",
+	"subtitles.entity.generic.hurt_melt": "Something melts",
+	
 	"subtitles.item.origin_orb.use": "Orb of Origins used"
 }

@@ -1,7 +1,10 @@
+scoreboard objectives add datapack_origins.damage_sound dummy "ow"
 scoreboard objectives add datapack_origins.origin dummy "origin"
 scoreboard objectives setdisplay list datapack_origins.origin
-scoreboard objectives modify datapack_origins.origin displayname [{"text":"0",font:"datapack_origins:origin_icon"}, {text: "-Origin-", bold: true, italic: true, underlined: true, color: "gold"}, {"text":"0",font:"datapack_origins:origin_icon"}]
+scoreboard objectives modify datapack_origins.origin displayname [{"text":"+",font:"datapack_origins:origin_icon"}, {text: "-Origin-", bold: true, italic: true, underlined: true, color: "gold"}, {"text":"+",font:"datapack_origins:origin_icon"}]
 scoreboard objectives modify datapack_origins.origin numberformat styled {font:"datapack_origins:origin_icon"}
+
+function datapack_origins:utility/scoreboard_defaults
 
 item replace entity @a hotbar.0 with poisonous_potato[\
 	item_name={translate: "item.datapack_origins.origin_orb"},\

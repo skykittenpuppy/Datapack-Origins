@@ -6,6 +6,15 @@
 			"height": 8,
 			"ascent": 7,
 			"chars": [
+				"+"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "datapack_origins:icon/human.png",
+			"height": 8,
+			"ascent": 7,
+			"chars": [
 				"0"
 			]
 		},

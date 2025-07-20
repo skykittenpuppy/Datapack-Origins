@@ -9,17 +9,17 @@
 			"item": {
 				"id": "minecraft:poisonous_potato",
 				"components": {
-					"item_model": "datapack_origins:icon_enderian"
+					"item_model": "datapack_origins:icon_human"
 				}
 			},
-			"description": [{"text":" "}, {"translate":"origin.datapack_origins.enderian"}],
+			"description": [{"text":" "}, {"translate":"origin.datapack_origins.human"}],
 			"show_decooration": false,
 			"show_tooltip": false
 		},
 		{
 			"type": "minecraft:plain_message",
 			"width": 150,
-			"contents": {"translate":"origin.datapack_origins.enderian.description"}
+			"contents": {"translate":"origin.datapack_origins.human.description"}
 		}
 	],
 	"columns": 3,
@@ -29,7 +29,7 @@
 			"width": 20,
 			"action": {
 				"type": "show_dialog",
-				"dialog": "datapack_origins:origin_select_4"
+				"dialog": "datapack_origins:origin_select_9"
 			}
 		},
 		{
@@ -37,7 +37,7 @@
 			"width": 160,
 			"action": {
 				"type": "run_command",
-				"command": "scoreboard players set @s datapack_origins.origin 5"
+				"command": "scoreboard players set @s datapack_origins.origin 0"
 			}
 		},
 		{
@@ -45,7 +45,7 @@
 			"width": 20,
 			"action": {
 				"type": "show_dialog",
-				"dialog": "datapack_origins:origin_select_6"
+				"dialog": "datapack_origins:origin_select_1"
 			}
 		}
 	]

@@ -1,3 +1,6 @@
+scoreboard objectives setdisplay sidebar datapack_origins.origin
+
+scoreboard players set Human datapack_origins.origin 0
 scoreboard players set Arachnid datapack_origins.origin 1
 scoreboard players set Avian datapack_origins.origin 2
 scoreboard players set Blazeborn datapack_origins.origin 3

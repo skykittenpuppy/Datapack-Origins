@@ -1,0 +1,10 @@
+{
+    "values": [
+		"#minecraft:is_badlands",
+		"#minecraft:is_end",
+		"#minecraft:is_nether",
+		"#minecraft:is_savanna",
+		"desert",
+		"the_void"
+    ]
+}

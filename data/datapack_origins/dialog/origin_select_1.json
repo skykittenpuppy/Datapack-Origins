@@ -7,7 +7,10 @@
 		{
 			"type": "minecraft:item",
 			"item": {
-				"id": "minecraft:cobweb"
+				"id": "minecraft:poisonous_potato",
+				"components": {
+					"item_model": "datapack_origins:icon_arachnid"
+				}
 			},
 			"description": [{"text":" "}, {"translate":"origin.datapack_origins.arachnid"}],
 			"show_decooration": false,
@@ -26,7 +29,7 @@
 			"width": 20,
 			"action": {
 				"type": "show_dialog",
-				"dialog": "datapack_origins:origin_select_9"
+				"dialog": "datapack_origins:origin_select_0"
 			}
 		},
 		{

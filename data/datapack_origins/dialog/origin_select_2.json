@@ -7,7 +7,10 @@
 		{
 			"type": "minecraft:item",
 			"item": {
-				"id": "minecraft:feather"
+				"id": "minecraft:poisonous_potato",
+				"components": {
+					"item_model": "datapack_origins:icon_avian"
+				}
 			},
 			"description": {
 				"contents": [{"text":" "}, {"translate":"origin.datapack_origins.avian"}]

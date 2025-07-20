@@ -7,7 +7,10 @@
 		{
 			"type": "minecraft:item",
 			"item": {
-				"id": "minecraft:shulker_shell"
+				"id": "minecraft:poisonous_potato",
+				"components": {
+					"item_model": "datapack_origins:icon_shulk"
+				}
 			},
 			"description": [{"text":" "}, {"translate":"origin.datapack_origins.shulk"}],
 			"show_decooration": false,
@@ -42,7 +45,7 @@
 			"width": 20,
 			"action": {
 				"type": "show_dialog",
-				"dialog": "datapack_origins:origin_select_1"
+				"dialog": "datapack_origins:origin_select_0"
 			}
 		}
 	]
