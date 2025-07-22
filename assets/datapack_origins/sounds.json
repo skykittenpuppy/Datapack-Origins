@@ -1,14 +1,43 @@
 {
-	"entity.generic.hurt_extinguish": {
-		"subtitle": "subtitles.entity.generic.hurt_extinguish",
+	"entity.enderling_pearl.throw": {
+		"subtitle": "subtitles.entity.enderling_pearl.throw",
+		"sounds": [
+			{
+				"name": "random/bow",
+				"volume": 0.5,
+				"pitch": 0.5
+			}
+		]
+	},
+	"entity.player.hurt_water_blaze": {
+		"subtitle": "subtitles.entity.player.hurt_water_blaze",
 		"sounds": [
 			"entity/player/hurt/fire_hurt1",
 			"entity/player/hurt/fire_hurt2",
 			"entity/player/hurt/fire_hurt3"
 		]
 	},
-	"entity.generic.hurt_melt": {
-		"subtitle": "subtitles.entity.generic.hurt_melt",
+	"entity.player.hurt_water_ender": {
+		"subtitle": "subtitles.entity.player.hurt_water_ender",
+		"sounds": [
+			"block/mud/break1",
+			"block/mud/break2",
+			"block/mud/break3",
+			"block/mud/break4",
+			"block/mud/break5",
+			"block/mud/break6"
+		]
+	},
+	"entity.generic.hurt_water_blaze": {
+		"subtitle": "subtitles.entity.generic.hurt_water_blaze",
+		"sounds": [
+			"entity/player/hurt/fire_hurt1",
+			"entity/player/hurt/fire_hurt2",
+			"entity/player/hurt/fire_hurt3"
+		]
+	},
+	"entity.generic.hurt_water_ender": {
+		"subtitle": "subtitles.entity.generic.hurt_water_ender",
 		"sounds": [
 			"block/mud/break1",
 			"block/mud/break2",
@@ -19,6 +48,12 @@
 		]
 	},
 
+	"item.blaze_ball.shoot": {
+		"subtitle": "subtitles.item.blaze_ball.shoot",
+		"sounds": [
+			"mob/ghast/fireball4"
+		]
+	},
 	"item.origin_orb.use_1": {
 		"subtitle": "subtitles.item.origin_orb.use",
 		"sounds": [
@@ -34,12 +69,6 @@
 			"block/amethyst/break2",
 			"block/amethyst/break3",
 			"block/amethyst/break4"
-		]
-	},
-	"item.enderling_pearl.throw": {
-		"subtitle": "subtitles.item.enderling_pearl.throw",
-		"sounds": [
-			"random/bow"
 		]
 	}
 }

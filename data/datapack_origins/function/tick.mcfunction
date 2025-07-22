@@ -1,7 +1,9 @@
 execute as @a[team=] run dialog show @s datapack_origins:origin_select_human
 
+clear @a[team=!datapack_origins.blazeborn] *[custom_data={"datapack_origins.blazeborn": true}]
 clear @a[team=!datapack_origins.elytrian] *[custom_data={"datapack_origins.elytrian": true}]
 clear @a[team=!datapack_origins.enderling] *[custom_data={"datapack_origins.enderling": true}]
+kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{"datapack_origins.blazeborn": true}}}}]
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{"datapack_origins.elytrian": true}}}}]
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{"datapack_origins.enderling": true}}}}]
 

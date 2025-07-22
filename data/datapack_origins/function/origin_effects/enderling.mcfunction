@@ -1,6 +1,6 @@
 scoreboard players set @s datapack_origins.random 0
-execute if predicate datapack_origins:touching_water store result score @s datapack_origins.random run damage @s 1 datapack_origins:melt_water
-execute if score @s datapack_origins.random matches 1.. run playsound datapack_origins:entity.generic.hurt_melt
+execute if predicate datapack_origins:touching_water store result score @s datapack_origins.random run damage @s 1 datapack_origins:water_ender
+execute if score @s datapack_origins.random matches 1.. run playsound datapack_origins:entity.player.hurt_water_ender player
 
 scoreboard players set @s datapack_origins.random 0
 execute if items entity @s container.* *[custom_data={"datapack_origins.enderling": true}] run scoreboard players add @s datapack_origins.random 1
@@ -27,6 +27,6 @@ execute if score @s datapack_origins.random matches ..0 run give @s poisonous_po
 	max_stack_size= 1,\
 	use_cooldown= {\
 		cooldown_group: "datapack_origins:enderling_pearl",\
-		seconds: 1.0,\
+		seconds: 2.0,\
 	},\
 ]

@@ -1,7 +1,7 @@
 {
 	"replace": false,
 	"values": [
-		"datapack_origins:extinguish_water",
-		"datapack_origins:melt_water"
+		"datapack_origins:water_blaze",
+		"datapack_origins:water_ender"
 	]
 }

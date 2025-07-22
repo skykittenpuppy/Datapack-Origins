@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"use_item": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"datapack_origins.blazeborn": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "datapack_origins:utility/used_blaze_ball"
+	}
+}
