@@ -35,5 +35,11 @@
 			"block/amethyst/break3",
 			"block/amethyst/break4"
 		]
+	},
+	"item.enderling_pearl.throw": {
+		"subtitle": "subtitles.item.enderling_pearl.throw",
+		"sounds": [
+			"random/bow"
+		]
 	}
 }

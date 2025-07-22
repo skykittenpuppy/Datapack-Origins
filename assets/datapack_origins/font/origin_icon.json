@@ -2,11 +2,11 @@
 	"providers": [
 		{
 			"type": "bitmap",
-			"file": "datapack_origins:item/origin_orb.png",
+			"file": "datapack_origins:icon/origin_orb.png",
 			"height": 8,
 			"ascent": 7,
 			"chars": [
-				"+"
+				"\ua000"
 			]
 		},
 		{
@@ -15,25 +15,7 @@
 			"height": 8,
 			"ascent": 7,
 			"chars": [
-				"0"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "datapack_origins:icon/arachnid.png",
-			"height": 8,
-			"ascent": 7,
-			"chars": [
-				"1"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "datapack_origins:icon/avian.png",
-			"height": 8,
-			"ascent": 7,
-			"chars": [
-				"2"
+				"\ua001"
 			]
 		},
 		{
@@ -42,7 +24,7 @@
 			"height": 8,
 			"ascent": 7,
 			"chars": [
-				"3"
+				"\ua002"
 			]
 		},
 		{
@@ -51,52 +33,16 @@
 			"height": 8,
 			"ascent": 7,
 			"chars": [
-				"4"
+				"\ua003"
 			]
 		},
 		{
 			"type": "bitmap",
-			"file": "datapack_origins:icon/enderian.png",
+			"file": "datapack_origins:icon/enderling.png",
 			"height": 8,
 			"ascent": 7,
 			"chars": [
-				"5"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "datapack_origins:icon/feline.png",
-			"height": 8,
-			"ascent": 7,
-			"chars": [
-				"6"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "datapack_origins:icon/merling.png",
-			"height": 8,
-			"ascent": 7,
-			"chars": [
-				"7"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "datapack_origins:icon/phantom.png",
-			"height": 8,
-			"ascent": 7,
-			"chars": [
-				"8"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "datapack_origins:icon/shulk.png",
-			"height": 8,
-			"ascent": 7,
-			"chars": [
-				"9"
+				"\ua004"
 			]
 		},
 		{

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "datapack_origins:item/elytrian_wings"
+  }
+}

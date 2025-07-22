@@ -1,7 +1,7 @@
 {
 	"sources": [
 		{
-			"type": "minecraft:directory",
+			"type": "directory",
 			"prefix": "icon/",
 			"source": "icon"
 		}

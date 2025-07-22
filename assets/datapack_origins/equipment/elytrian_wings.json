@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "datapack_origins:elytrian_wings"
+      }
+    ]
+  }
+}
