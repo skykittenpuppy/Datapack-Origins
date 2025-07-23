@@ -1,20 +1,20 @@
 {
-	"death.attack.waterBlaze": "%1$s's flame was extinguished",
-	"death.attack.waterBlaze.item": "%1$s's flame was extinguished while fighting %2$s wielding %3$s",
-	"death.attack.waterBlaze.player": "%1$s's flame was extinguished while fighting %2$s",
+	"death.attack.waterBlaze":			"%1$s's flame was extinguished",
+	"death.attack.waterBlaze.item":		"%1$s's flame was extinguished while fighting %2$s wielding %3$s",
+	"death.attack.waterBlaze.player":	"%1$s's flame was extinguished while fighting %2$s",
 
-	"death.attack.waterEnder": "%1$s melted away",
-	"death.attack.waterEnder.item": "%1$s melted away while fighting %2$s wielding %3$s",
-	"death.attack.waterEnder.player": "%1$s melted away while fighting %2$s",
+	"death.attack.waterEnder":			"%1$s melted away",
+	"death.attack.waterEnder.item":		"%1$s melted away while fighting %2$s wielding %3$s",
+	"death.attack.waterEnder.player":	"%1$s melted away while fighting %2$s",
 
 	"enchantment.datapack_origins.water_protection": "Water Protection",
 
-	"item.datapack_origins.blaze_ball": "Blaze Ball",
-	"item.datapack_origins.elytrian_wings": "Wings",
-	"item.datapack_origins.elytrian_wings.lore_1": "Placeholder",
-	"item.datapack_origins.elytrian_wings.lore_2": "-2 Armor",
-	"item.datapack_origins.enderling_pearl": "Enderling Pearl",
-	"item.datapack_origins.origin_orb": "Orb of Origins",
+	"item.datapack_origins.blaze_ball":				"Blaze Ball",
+	"item.datapack_origins.elytrian_wings":			"Wings",
+	"item.datapack_origins.elytrian_wings.lore_1":	"Placeholder",
+	"item.datapack_origins.elytrian_wings.lore_2":	"-2 Armor",
+	"item.datapack_origins.enderling_pearl":		"Enderling Pearl",
+	"item.datapack_origins.origin_orb":				"Orb of Origins",
 	
 	"originSelect.title":	"Select your Origin!",
 	"originSelect.confirm":	"Select",
@@ -24,18 +24,21 @@
 	"origin.datapack_origins.human":		"Human",
 	"origin.datapack_origins.blazeborn":	"Blazeborn",
 	"origin.datapack_origins.elytrian":		"Elytrian",
-	"origin.datapack_origins.enderling":		"Enderling",
+	"origin.datapack_origins.enderling":	"Enderling",
+	"origin.datapack_origins.sculk":		"Sculk",
 
 	"origin.datapack_origins.human.description":		"Human ...",
 	"origin.datapack_origins.blazeborn.description":	"Blazeborn ...",
 	"origin.datapack_origins.elytrian.description":		"Elytrian ...",
-	"origin.datapack_origins.enderling.description":		"Enderling ...",
+	"origin.datapack_origins.enderling.description":	"Enderling ...",
+	"origin.datapack_origins.sculk.description":		"Sculk ...",
 
-	"subtitles.entity.enderling_pearl.throw": "Enderling Pearl flies",
-	"subtitles.entity.player.hurt_water_blaze": "Player is extinguished",
-	"subtitles.entity.player.hurt_water_ender": "Player melts",
-	"subtitles.entity.generic.hurt_water_blaze": "Something is extinguished",
-	"subtitles.entity.generic.hurt_water_ender": "Something melts",
-	"subtitles.item.blaze_ball.shoot": "BLAZE BALL",
-	"subtitles.item.origin_orb.use": "Orb of Origins used"
+	"subtitles.entity.enderling_pearl.throw":		"Enderling Pearl flies",
+	"subtitles.entity.player.hurt_water_blaze":		"Player is extinguished",
+	"subtitles.entity.player.hurt_water_ender":		"Player melts",
+	"subtitles.entity.generic.hurt_water_blaze":	"Something is extinguished",
+	"subtitles.entity.generic.hurt_water_ender":	"Something melts",
+
+	"subtitles.item.blaze_ball.shoot":				"BLAZE BALL",
+	"subtitles.item.origin_orb.use":				"Orb of Origins used"
 }

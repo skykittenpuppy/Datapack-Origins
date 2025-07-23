@@ -10,3 +10,4 @@ kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{"datapack_orig
 execute as @a[team=datapack_origins.blazeborn] at @s run function datapack_origins:origin_effects/blazeborn
 execute as @a[team=datapack_origins.elytrian] at @s run function datapack_origins:origin_effects/elytrian
 execute as @a[team=datapack_origins.enderling] at @s run function datapack_origins:origin_effects/enderling
+execute as @a[team=datapack_origins.sculk] at @s run function datapack_origins:origin_effects/sculk

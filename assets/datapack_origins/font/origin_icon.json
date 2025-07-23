@@ -46,6 +46,15 @@
 			]
 		},
 		{
+			"type": "bitmap",
+			"file": "datapack_origins:icon/sculk.png",
+			"height": 8,
+			"ascent": 7,
+			"chars": [
+				"\ua005"
+			]
+		},
+		{
 			"type": "reference",
 			"id": "minecraft:default"
 		}
