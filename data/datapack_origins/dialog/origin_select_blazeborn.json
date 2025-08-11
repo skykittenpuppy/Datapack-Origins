@@ -5,21 +5,9 @@
 	"title": {"translate":"originSelect.title"},
 	"body": [
 		{
-			"type": "minecraft:item",
-			"item": {
-				"id": "minecraft:poisonous_potato",
-				"components": {
-					"item_model": "datapack_origins:icon_blazeborn"
-				}
-			},
-			"description": [{"text":" "}, {"translate":"origin.datapack_origins.blazeborn"}],
-			"show_decooration": false,
-			"show_tooltip": false
-		},
-		{
 			"type": "minecraft:plain_message",
-			"width": 150,
-			"contents": {"translate":"origin.datapack_origins.blazeborn.description"}
+			"contents": [{"text":"\uE000\n\n\uF000\uE101\uF100", "font":"datapack_origins:fake_ui"}, {"translate":"origin.datapack_origins.blazeborn"}, {"text":"                                                         \n\n", "font":"datapack_origins:fake_ui"}, {"translate":"origin.datapack_origins.blazeborn.description"}, {"text":"\uF200\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "font":"datapack_origins:fake_ui"}],
+			"width": 200
 		}
 	],
 	"columns": 3,

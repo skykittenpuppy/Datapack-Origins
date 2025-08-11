@@ -21,16 +21,16 @@
 	"originSelect.last":	"<",
 	"originSelect.next":	">",
 	
-	"origin.datapack_origins.human":		"Human",
 	"origin.datapack_origins.blazeborn":	"Blazeborn",
 	"origin.datapack_origins.elytrian":		"Elytrian",
 	"origin.datapack_origins.enderling":	"Enderling",
+	"origin.datapack_origins.human":		"Human",
 	"origin.datapack_origins.sculk":		"Sculk",
 
-	"origin.datapack_origins.human.description":		"Human ...",
 	"origin.datapack_origins.blazeborn.description":	"Blazeborn ...",
 	"origin.datapack_origins.elytrian.description":		"Elytrian ...",
 	"origin.datapack_origins.enderling.description":	"Enderling ...",
+	"origin.datapack_origins.human.description":		"Human ...",
 	"origin.datapack_origins.sculk.description":		"Sculk ...",
 
 	"subtitles.entity.enderling_pearl.throw":		"Enderling Pearl flies",

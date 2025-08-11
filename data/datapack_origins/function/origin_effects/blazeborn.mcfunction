@@ -1,5 +1,5 @@
 scoreboard players set @s datapack_origins.random 0
-execute if predicate datapack_origins:touching_water store result score @s datapack_origins.random run damage @s 1 datapack_origins:water_blaze
+execute if predicate datapack_origins:touching_wet_liquid store result score @s datapack_origins.random run damage @s 1 datapack_origins:water_blaze
 execute if score @s datapack_origins.random matches 1.. run playsound datapack_origins:entity.player.hurt_water_blaze player
 
 scoreboard players set @s datapack_origins.random 0

@@ -1,0 +1,34 @@
+{
+	"providers": [
+		{
+			"type": "space",
+			"advances": {
+				"\uF000": 30,
+				"\uF100": 7,
+				"\uF200": 100
+			}
+		},
+		{
+			"type": "bitmap",
+			"file": "datapack_origins:gui/origin_select.png",
+			"height": 182,
+			"ascent": 8,
+			"chars": [
+				"\uE000"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "datapack_origins:icon/blazeborn.png",
+			"height": 16,
+			"ascent": 11,
+			"chars": [
+				"\uE101"
+			]
+		},
+		{
+			"type": "reference",
+			"id": "minecraft:default"
+		}
+	]
+}

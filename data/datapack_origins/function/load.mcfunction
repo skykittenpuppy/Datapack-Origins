@@ -1,14 +1,25 @@
 scoreboard objectives add datapack_origins.random dummy "random"
-team add datapack_origins.human
-team modify datapack_origins.human prefix {text: "\ua001", font: "datapack_origins:origin_icon"}
-team add datapack_origins.blazeborn
-team modify datapack_origins.blazeborn prefix {text: "\ua002", font: "datapack_origins:origin_icon"}
-team add datapack_origins.elytrian
-team modify datapack_origins.elytrian prefix {text: "\ua003", font: "datapack_origins:origin_icon"}
-team add datapack_origins.enderling
-team modify datapack_origins.enderling prefix {text: "\ua004", font: "datapack_origins:origin_icon"}
-team add datapack_origins.sculk
-team modify datapack_origins.sculk prefix {text: "\ua005", font: "datapack_origins:origin_icon"}
 
-tellraw @a {text:"\ua000 Datapack Origins \ua000", font:"datapack_origins:origin_icon", underlined: true}
-tellraw @a {text:"\ua000\ua001\ua002\ua003\ua004\ua005\ua006\ua007\ua008\ua009\ua010", font:"datapack_origins:origin_icon"}
+tellraw @a [{atlas: "minecraft:blocks", sprite: "datapack_origins:icon/origin_orb", underlined: true},\
+			" Datapack Origins ",\
+			{atlas: "minecraft:blocks", sprite: "datapack_origins:icon/origin_orb"}]
+
+team add datapack_origins.blazeborn
+team modify datapack_origins.blazeborn prefix [{atlas: "minecraft:blocks", sprite: "datapack_origins:icon/blazeborn"}, " "]
+tellraw @a [{atlas: "minecraft:blocks", sprite: "datapack_origins:icon/blazeborn"}, " ", {"translate":"origin.datapack_origins.blazeborn"}]
+
+team add datapack_origins.elytrian
+team modify datapack_origins.elytrian prefix [{atlas: "minecraft:blocks", sprite: "datapack_origins:icon/elytrian"}, " "]
+tellraw @a [{atlas: "minecraft:blocks", sprite: "datapack_origins:icon/elytrian"}, " ", {"translate":"origin.datapack_origins.elytrian"}]
+
+team add datapack_origins.enderling
+team modify datapack_origins.enderling prefix [{atlas: "minecraft:blocks", sprite: "datapack_origins:icon/enderling"}, " "]
+tellraw @a [{atlas: "minecraft:blocks", sprite: "datapack_origins:icon/enderling"}, " ", {"translate":"origin.datapack_origins.enderling"}]
+
+team add datapack_origins.human
+team modify datapack_origins.human prefix [{atlas: "minecraft:blocks", sprite: "datapack_origins:icon/human"}, " "]
+tellraw @a [{atlas: "minecraft:blocks", sprite: "datapack_origins:icon/human"}, " ", {"translate":"origin.datapack_origins.human"}]
+
+team add datapack_origins.sculk
+team modify datapack_origins.sculk prefix [{atlas: "minecraft:blocks", sprite: "datapack_origins:icon/sculk"}, " "]
+tellraw @a [{atlas: "minecraft:blocks", sprite: "datapack_origins:icon/sculk"}, " ", {"translate":"origin.datapack_origins.sculk"}]

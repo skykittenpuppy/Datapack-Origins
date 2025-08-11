@@ -20,7 +20,7 @@
 						"tags": [
 							{
 								"expected": true,
-								"id": "datapack_origins:is_water"
+								"id": "datapack_origins:from_wet_liquid"
 							},
 							{
 								"expected": false,

@@ -29,7 +29,7 @@
 			"condition": "location_check",
 			"predicate": {
 				"fluid": {
-					"fluids": "#datapack_origins:wet"
+					"fluids": "#datapack_origins:is_wet_liquid"
 				}
 			}
 		}
