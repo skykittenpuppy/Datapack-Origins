@@ -6,7 +6,13 @@
 	"body": [
 		{
 			"type": "minecraft:plain_message",
-			"contents": [{"text":"\uE000\n\n\uF000\uE101\uF100", "font":"datapack_origins:fake_ui"}, {"translate":"origin.datapack_origins.blazeborn"}, {"text":"                                                         \n\n", "font":"datapack_origins:fake_ui"}, {"translate":"origin.datapack_origins.blazeborn.description"}, {"text":"\uF200\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "font":"datapack_origins:fake_ui"}],
+			"contents": [
+				{"text":"\uE000\n\n\n\uF000\uF001\uE101\uF100", "font":"datapack_origins:fake_ui", "shadow_color": 0},
+				{"translate":"origin.datapack_origins.blazeborn", "font":"minecraft:default", "shadow_color": 3225436224},
+				{"translate":"origin.datapack_origins.blazeborn", "font":"minecraft:default_neg"},
+				{"text":"\n\n\n", "font":"datapack_origins:fake_ui", "shadow_color": 0},
+				{"translate":"origin.datapack_origins.blazeborn.description", "font":"minecraft:default", "shadow_color": 3225436224}
+			],
 			"width": 200
 		}
 	],

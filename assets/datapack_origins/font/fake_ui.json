@@ -3,16 +3,17 @@
 		{
 			"type": "space",
 			"advances": {
-				"\uF000": 30,
-				"\uF100": 7,
-				"\uF200": 100
+				"\uF000": -176,
+				"\uF001": 62,
+				"\uF002": 24,
+				"\uF100": 7
 			}
 		},
 		{
 			"type": "bitmap",
 			"file": "datapack_origins:gui/origin_select.png",
 			"height": 182,
-			"ascent": 8,
+			"ascent": -1,
 			"chars": [
 				"\uE000"
 			]
@@ -25,10 +26,6 @@
 			"chars": [
 				"\uE101"
 			]
-		},
-		{
-			"type": "reference",
-			"id": "minecraft:default"
 		}
 	]
 }
