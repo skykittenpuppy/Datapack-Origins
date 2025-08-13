@@ -1,11 +1,13 @@
 {
     "pack": {
-		"pack_format": 16,
+		"pack_format": 64,
+		"min_format": [16],
+		"max_format": [999],
 		"supported_formats": [16,999],
         "description": [
             {
-                "text": "Adds Origins to Minecraft!",
-                "color": "white",
+                "text": "Origins",
+                "color": "light_purple",
                 "italic": false,
                 "bold": true
             },
