@@ -7,34 +7,37 @@
         "description": [
             {
                 "text": "Origins",
-                "color": "light_purple",
-                "italic": false,
-                "bold": true
-            },
-            {
-                "text": "\nskykittenpuppy ",
-                "color": "#9c72ea",
-                "italic": false,
-                "bold": false
-            },
-            {
-                "text": "(",
-                "color": "gray",
-                "italic": false,
-                "bold": false
-            },
-            {
-                "text": "beegirl.gay",
-                "color": "#0000EE",
-                "italic": true,
-                "bold": false
-            },
-            {
-                "text": ")",
-                "color": "gray",
-                "italic": false,
-                "bold": false
-            }
+                "color": "#FF44FF",
+				"bold": true,
+				"italic": false,
+				"underlined": false
+			},
+			{"text": "\n"},
+			{
+				"text": "ꜱᴋʏᴋɪᴛᴛᴇɴᴘᴜᴘᴘʏ",
+				"color": "#9c72ea",
+				"bold": false,
+				"italic": false,
+				"underlined": false
+			},
+			{
+				"text": "@",
+				"color": "#AAAAAA",
+				"bold": false,
+				"italic": false,
+				"underlined": false
+			},
+			{
+				"text": "ʙᴇᴇɢɪʀʟ.ɢᴀʏ",
+				"color": "#0000FF",
+				"bold": false,
+				"italic": false,
+				"underlined": true,
+				"click_event": {
+					"action": "open_url",
+					"url": "https://beegirl.gay/#Projects"
+				}
+			}
         ]
     }
 }
